@@ -1,0 +1,118 @@
+body {
+    padding: 15px;
+    min-width: 320px;
+    background-attachment: fixed;
+    background-image: url(../img/bg-body2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+header {
+    margin-top: 30px;
+}
+header a{
+    font-style: oblique;
+    font-weight: bold;
+    line-height: 1.7;
+    color: lime;
+}
+header a:hover {
+    color: white;
+}
+.container {
+    margin-bottom: 50px;
+}
+.container img {
+    width: 80%;
+}
+.jumbotron {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 13px 8px 30px lime;
+    transition: 2s;
+}
+.jumbotron:hover {
+    box-shadow: -13px -8px 30px lime;
+}
+.jumbotron .btn-group {
+    margin-top: 20px;
+}
+.jumbotron h1 {
+    color: #999;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 1px 15px lime;
+}
+.jumbotron p, i{
+    color: #999;
+    text-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+.html5 {
+    margin-bottom: 50px;
+    box-shadow: -13px 8px 30px #eda547;
+    color: white;
+    font-size: large;
+    background-color: #f9d889;
+    border-radius: 15px;
+    padding: 30px;
+    transition: 2s;
+}
+.html5:hover {
+    box-shadow: 13px 8px 30px #eda547;
+}
+.row {
+    font-weight: bold;
+    text-align: center;
+    padding:0 20px;
+}
+.row p {
+    text-align: left;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.css3 {
+    background-color: #99c7ef;
+    box-shadow: 13px 8px 30px #52a3ea;
+    padding: 30px;
+    transition: 2s;
+    border-radius: 15px;
+}
+.css3:hover {
+    box-shadow: -13px 8px 30px #52a3ea;
+}
+.js {
+    background-color: #f4e877;
+    box-shadow: -13px 8px 30px #f4ea3f;
+    padding: 30px;
+    transition: 2s;
+    border-radius: 15px;
+    color: #c97e58;
+}
+.js:hover {
+    box-shadow: 13px 8px 30px #f7e325;
+    padding: 30px;
+    transition: 2s;
+    border-radius: 15px;
+}
+.about .row img {
+    width: 80%;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    margin-right: 40px;
+    color: white;
+    font-size: 4rem;
+    padding: 15px;
+    transition: 1s;
+}
+footer a:hover {
+    color: lime;
+    border-bottom: 2px solid green;
+}
